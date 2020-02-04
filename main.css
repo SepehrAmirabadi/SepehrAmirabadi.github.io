@@ -14,7 +14,7 @@ html {
 	margin-left: 50px;
 	position: left-side;
 	position: relative;
-	top: 210px;
+	top: 120px;
 	
 }
 .lname{
@@ -24,7 +24,7 @@ html {
 	line-height: 1.618;
 	margin-left: 50px;
 	position: relative;
-	top: 140px;
+	top: 50px;
 	
 }
 
@@ -91,3 +91,19 @@ html {
   top: 340;
   left: 240;
 }
+
+
+
+.typewrite {
+	color: white;
+	font-family:"Poppins", sans-serif;
+	font-size: 40px; 
+	overflow: hidden; 
+	
+	
+	position: relative;
+	left: 50;
+	top:30;
+	
+}
+
