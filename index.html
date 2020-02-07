@@ -1,41 +1,123 @@
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="main.css">
-<meta name ="viewport" content ="width=device-width, initial-scale=1">
 
 </head>
-
 <body>
 
-<h1 class = "fname"> Sepehr</h1>
-<h1 class = "lname"> Amirabadi</h1>
-
-<div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="index.html">About</a>
-  <a href="pages/eductation.html">Education</a>
-  <a href="pages/projects">Projects</a>
-  <a href="pages/contact">Contact</a>
-</div>
-<a href = "https://linkedin.com/in/sepehr-eslami-amirabadi-a15178145" target="_blank" class = "linkedIn" > 
-<img src = "additional-files/linkedIn.png" width="50" height="50">
+<div class="bgimg-1">
+  <div class="caption">
+  <span class = "border">
+  <span class="fname">Sepehr</span>
+  <span class ="lname"> Amirabadi</span>
+  </span>
+   <a href = "https://linkedin.com/in/sepehr-eslami-amirabadi-a15178145" target="_blank" class = "linkedIn" > 
+<img src = "additional-files/linkedIn.png" width="75" height="75">
 </a>
 <a href = "https://github.com/SepehrAmirabadi" target="_blank" class = "git" > 
-<img src = "additional-files/git.png" width="140" height="70">
+<img src = "additional-files/git.png" width="150" height="80">
 </a>
-<a class = "mail" href = "mailto:sepehreslamiamirabad@cmail.carleton.ca" subject="Subject"><img src = "additional-files/mail.png" width="70" height="60"></a>
-<span onclick="openNav()" class= "button">&#9776;</span>
+<a class = "mail" href = "mailto:sepehreslamiamirabad@cmail.carleton.ca" subject="Subject"><img src = "additional-files/mail.png" width="80" height="70"></a>
+</div>
+  <div id="mySidenav" class="sidenav">
+	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	  <a href="#about" onclick="closeNav()">About</a>
+	  <a href="#skills" onclick="closeNav()">Skills</a>
+	  <a href="pages/projects" onclick="closeNav()">Projects</a>
+	  <a href="pages/contact" onclick="closeNav()">Contact</a>
+	</div>
+	  <span onclick="openNav()" class= "button">&#9776;</span>
+</div>
 
 
-<h1>
-  <p href="" class="typewrite" data-period="2000" data-type='[ "Computer Science Student.", "Aspiring AI Developer", "Aspiring Web Developer"]'>
-    <span class="wrap"></span>
-  </p>
-</h1>
+<div id = "about" style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+  <h3 style="text-align:center;">About Me</h3>
+  <p>I am an ambitious second year Computer Science Student currently working towards my degree at Carleton University. I have an interest in Application Development, Machine Learning, and Web Development. Some of my Hobbies include, playing soccer(Carleton Intramurals),making things with Arduino, and playing the Flute.</p>
+</div>
 
+
+<div id ="skills" class="bgimg-2">
+  <div class="caption">
+  <span class="border" style="background-color:white;font-size:30px;color: black;">Skills</span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;position:static;overflow:hidden;">
+	<section id = "intro" class="leftElem" > 
+		<h1 id = "centerTitle">Web Development</h1>
+		<ul = id ="infoText" >
+			<li>Proficient in HTML, CSS, Node.js, Javascript, HTTP, Express, MongoDB</li>
+			<li>Exprienced in DataBase Managment</li>
+			<li>Able to Write both Client and Server-side code</li>
+			<li>Familliar with Node Package Manager for versioning</li>
+		</ul>
+	</section>
+	<section id = "intro"class="rightElem" > 
+		<h1 id = "centerTitle">Object Oriented Programing</h1>
+		<ul = id ="infoText" >
+			<li>Proficient in Java and C++</li>
+			<li>Strong understanding of OOP such as, Polymorphisim, Encapsulation, and Abstraction </li>
+			<li>Can implement good Object Orient Design to ensure programs are protected, sustainable and scalable</li>
+		</ul>
+	</section>
+	<section id = "intro" style= "float:left;position:relative;left:20;" > 
+		<h1 id = "centerTitle">Comumunication</h1>
+		<ul = id ="infoText" >
+			<li>Communicates Clearly and Effectivly</li>
+			<li>Bilingual:English and French(DELf level B2, French Immersion Certificate)</li>
+			<li>Years of teaching karate has developed my ability to convey concepts as simply and concisely as possible</li>
+		</ul>
+	</section>
+  </div>
+    <div style="color:#ddd;background-color:#282E34;text-align:center;padding-top:10px;padding-bottom:50px; padding-left:80px;padding-right:80px;text-align: justify;position:static;overflow:hidden;">
+	<section id = "intro" class="leftElem" > 
+		<h1 id = "centerTitle">Distributed computing</h1>
+		<ul = id ="infoText" style ="font-size:17;">
+			<li>Experienced in Inter-Process communication</li>
+			<li>Can manage Multi-Threaded programs, using semaphores and wait functions</li>
+			<li>Strong understanding of Socket Based Comumunication</li>
+			<li>Familliar with both TCP and UDP server methods</li>
+		</ul>
+	</section>
+	<section id = "intro"class="rightElem" > 
+		<h1 id = "centerTitle">Scalability and versioning</h1>
+		<ul = id ="infoText" >
+			<li>Familliar with git</li>
+			<li>Uses programing practices that ensure a program is extesible</li>
+			<li>Familliar with common versioning protocols</li>
+			<li>Familliar with Node Package Manager for versioning</li>
+		</ul>
+	</section>
+	<section id = "intro" style= "float:left;position:relative;left:20;" > 
+		<h1 id = "centerTitle">Scripting</h1>
+		<ul = id ="infoText" >
+			<li>Experienced in python</li>
+			<li>Can create and excecute functions in python</li>
+			<li>Well Versed in File Input/Output</li>
+		</ul>
+	</section>
+  </div>
+</div>
+
+<div class="bgimg-3">
+  <div class="caption">
+  <span class="border" style="background-color:white;font-size:30px;color: black;">Education</span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+  <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
+  </div>
+</div>
+
+<div class="bgimg-1">
+  <div class="caption">
+  <span class="border">COOL!</span>
+  </div>
+</div>
 </body>
-
 <script src = "clientSide.js"></script>
-
-
 </html>
