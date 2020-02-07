@@ -143,6 +143,7 @@ caption span.skillsH{
 #intro{
 	width: 30%;
 	height:60%;
+	min-width: 320px;
 	border: 1px solid #FF7B00;
 	box-shadow: 5px 10px;
 	padding: 5px;
