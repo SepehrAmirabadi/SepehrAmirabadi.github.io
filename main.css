@@ -5,9 +5,9 @@ body, html {
   color: #777;
 }
 
-.bgimg-1, .bgimg-2, .bgimg-3 {
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
   position: relative;
-  opacity: 0.65;
+  opacity: 0.75;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -27,6 +27,10 @@ body, html {
 .bgimg-3 {
   background-image: url("additional-files/back8.jpg");
   min-height: 400px;
+}
+.bgimg-4 {
+  background-image: url("additional-files/back9.jpg");
+  min-height: 300px;
 }
 
 .caption {
@@ -58,7 +62,7 @@ h3 {
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
-  .bgimg-1, .bgimg-2, .bgimg-3 {
+  .bgimg-1, .bgimg-2, .bgimg-3 .bgimg-4 {
     background-attachment: scroll;
   }
 }
@@ -120,20 +124,28 @@ h3 {
 	color: #FF7B00;
 }
 
+.iconContainer {
+	width: 60%;
+	max-height:20%;
+	margin: 0 auto;
+    overflow: hidden;
+	position:relative;
+}
+
 .linkedIn{
-	position: absolute;
-  top: 60%;
-  left: 35%;
+	float: left;
+	padding-left: 20%;
+	padding-right:10%;
+
 }
 .git{
-	position: absolute;
-  top: 60%;
-  left: 45%;
+	float: left;
+
 }
 .mail{
-	position: absolute;
-  top: 60%;
-  left: 60%;
+float:left;
+padding-left: 10%;
+
 }
 caption span.skillsH{
 	background-color: white;
